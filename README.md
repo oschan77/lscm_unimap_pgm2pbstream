@@ -1,7 +1,7 @@
 ## Steps:
 
 ```
-git clone https://github.com/oschan77/lscm_unimap_pgm2pbstream.git
+git clone https://github.com/oschan77/unimap_pgm2pbstream.git
 ```
 
 ```
