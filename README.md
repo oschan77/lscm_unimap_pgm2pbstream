@@ -9,7 +9,7 @@ git clone https://github.com/oschan77/lscm_unimap_pgm2pbstream.git
 ```
 
 ```
-roslaunch ogm2pgbm ogm2pgbm.launch map_file:=/root/workspace/slam_state_gray_x2/slam_state.yaml record:=true
+roslaunch ogm2pgbm ogm2pgbm.launch map_file:=/root/workspace/lobby/map.yaml record:=true
 ```
 
 ```

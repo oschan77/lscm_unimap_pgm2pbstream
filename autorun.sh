@@ -1,5 +1,5 @@
-image_name=lihanchen2004/ogm2pgbm:latest
-instance_name=ogm2pgbm
+image_name=oschan77/lscm_unimap_pgm2pbstream:latest
+instance_name=pgm2pbstream
 
 check_docker_instance_already_running() {
     if  [ ! "$(docker ps -a | grep $instance_name)" ]; then
@@ -25,7 +25,7 @@ simulation_main() {
     fi
     # docker build -t $image_name . 
     
-    docker run -it --rm \
+    docker run -itd \
         --name $instance_name \
         --gpus all \
         --env NVIDIA_DRIVER_CAPABILITIES=all \
